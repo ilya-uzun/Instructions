@@ -43,3 +43,8 @@ extends:
 > value -=10; - иквиваленит value = value - 10;
 > value +=10; - иквиваленит value = value + 10;
 > value %=10; - иквиваленит value = value % 10;
+
+### Часто задаваемые вопросы на собиседовании с примерами   
+[5 простых примеров](https://www.youtube.com/watch?v=FfMLwVlSxDo)
+[ход конём](https://www.youtube.com/watch?v=yTT3qMDCFgs) 
+[реверс массива](https://www.youtube.com/watch?v=JiX2RGaW5I4) 
