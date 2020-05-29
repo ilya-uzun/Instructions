@@ -48,3 +48,6 @@ extends:
 [5 простых примеров](https://www.youtube.com/watch?v=FfMLwVlSxDo)
 [ход конём](https://www.youtube.com/watch?v=yTT3qMDCFgs) 
 [реверс массива](https://www.youtube.com/watch?v=JiX2RGaW5I4) 
+
+###  Запуск файла на исполение через node
+`node nameFile.js` - команда в каталоге где лежит файл

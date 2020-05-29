@@ -209,6 +209,8 @@ system("pause");
   Class_name a {1, .....}; // присваиваем значения для переменных при объявлении нового объекта   
 ~~~
 
+### Важные ссылки
+[Программа сортировки файла с данными](https://knowledge.allbest.ru/programming/3c0a65635b3ad68b5d43a88421206c26_0.html)
 
 ## Cи
 [уроки](https://younglinux.info/c)
