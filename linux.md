@@ -7,5 +7,8 @@
 ### списак репозиторий в файле
 > sudo vim /etc/apt/sources.list
 
+### посмотреть виде карту      
+>lspci -k | egrep -iA3 'vga|video|3d'
+
 ### kali
 [Важная Инфа по рипозиторию] (https://poweruser.guru/questions/1247343/apt-add-repository-%D0%BD%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82-%D0%B2-kali-linux)
