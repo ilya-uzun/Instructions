@@ -28,11 +28,11 @@ extends:
 7. document.getElementById('id') - найти элемент в html по id (id Это имя нужного элемента)
 8. document.getElementByClassName('className') - отстеживание по имени класса
 9. document.getElementByName('Name') - отстеживание по имени
-10. node.appendChild();- объекта Node позволяет добавить узел в конец списка дочерних элементов указанного родительского узла.
-11. varible.toLowerCase(); - перевод строки в нижний регистр   
-12. let varible2 = varible.split(''); - перевод строки в массив, разбивавет на строку
-13. varible = varible.join(''); - обратная опираия  split
-14. str2 = str2.reverse(); - перевернуть массив
+10. ` node.appendChild();`- объекта Node позволяет добавить узел в конец списка дочерних элементов указанного родительского узла.
+11. toLowerCase() `varible.toLowerCase();` - перевод строки в нижний регистр   
+12. split() `let varible2 = varible.split('');` - перевод строки в массив, разбивавет на строку
+13. join() `varible = varible.join('');` - обратная опираия  split
+14. reverse() `str2 = str2.reverse();` - перевернуть массив
 
 
 
