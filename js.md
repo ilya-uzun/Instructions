@@ -33,6 +33,7 @@ extends:
 12. split() `let varible2 = varible.split('');` - перевод строки в массив, разбивавет на строку
 13. join() `varible = varible.join('');` - обратная опираия  split
 14. reverse() `str2 = str2.reverse();` - перевернуть массив
+15. querySelector() `var ele = document.querySelector(selector);` возвращает первый элемент, который соответствует одному или более CSS селекторам. Если совпадения не будет, то он вернет null.
 
 
 
