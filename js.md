@@ -67,3 +67,25 @@ const polindrom =str =>{
 function polindrom (str){ 
 }
 ~~~
+
+### логическое НЕ (Отрицание)
+|   a   |   !a   |
+|:-----:|:------:|
+| false |  false |
+|  true |  true  |
+
+### логическое И (Конънкция)
+|   a   |   b   |  a&&b |
+|:-----:|:-----:|:-----:|
+| false | false | false |
+| false | true | false |
+|  true | false | false |
+|  true | true | true |
+
+### логическое ИЛИ (Дизъюнкция)
+|   a   |   b   |  a||b |
+|:-----:|:-----:|:-----:|
+| false | false | false |
+| false | true | true |
+|  true | false | true |
+|  true | true | true |
