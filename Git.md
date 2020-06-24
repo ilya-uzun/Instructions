@@ -2,6 +2,10 @@
 Windows - в консоле Git bash (необходимо установить [Git bash](https://gitforwindows.org/))команда:
 > git clone + адрес репозитория - скопировать репозиторий на пк
 
+### конфигурации 
+$ git config --global user.name "John Doe"    
+$ git config --global user.email johndoe@example.co
+
 ### Находясь в скаченном репозитории команды:
 > git status - статус проекта
 
@@ -23,6 +27,8 @@ Windows - в консоле Git bash (необходимо установить 
 ### посчитать количество строк в файлах     
 > git ls-files | xargs wc -l
 
-[https://askdev.ru/q/kak-sohranit-imya-polzovatelya-i-parol-v-git-5753/]
+[ссылка](https://askdev.ru/q/kak-sohranit-imya-polzovatelya-i-parol-v-git-5753/)
 
 ### настройки лежат в каждом каталоге в .git/config
+
+[статья Ежедневная работа в Git](https://habr.com/ru/post/174467/)
