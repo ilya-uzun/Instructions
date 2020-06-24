@@ -22,3 +22,5 @@ Windows - в консоле Git bash (необходимо установить 
 
 ### посчитать количество строк в файлах     
 > git ls-files | xargs wc -l
+
+[https://askdev.ru/q/kak-sohranit-imya-polzovatelya-i-parol-v-git-5753/]
