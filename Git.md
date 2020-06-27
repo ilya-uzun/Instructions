@@ -3,8 +3,8 @@ Windows - в консоле Git bash (необходимо установить 
 > git clone + адрес репозитория - скопировать репозиторий на пк
 
 ### конфигурации 
-$ git config --global user.name "John Doe"    
-$ git config --global user.email johndoe@example.co
+$ git config --global user.name "ilya-uzun"    
+$ git config --global user.email ilya.uzun@bk.ru   
 
 ### Находясь в скаченном репозитории команды:
 > git status - статус проекта
