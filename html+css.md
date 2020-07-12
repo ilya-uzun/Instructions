@@ -22,3 +22,7 @@
 ### Значения
 - position: Устанавливает способ позиционирования элемента относительно окна браузера или других объектов на веб-странице. [Инфа](http://htmlbook.ru/css/position)   
 - padding значение полей [инфа](http://htmlbook.ru/css/padding)
+
+## видео уроки по gimp и inkscape
+
+[ютуб](https://www.youtube.com/watch?v=iIkRCu4m57Y&feature=youtu.be)
