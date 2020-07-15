@@ -32,3 +32,6 @@ $ git config --global user.email ilya.uzun@bk.ru
 ### настройки лежат в каждом каталоге в .git/config
 
 [статья Ежедневная работа в Git](https://habr.com/ru/post/174467/)
+
+### запись в орегинальную ветку, что-бы отоброжались коммиты      
+>git push -u origin master
