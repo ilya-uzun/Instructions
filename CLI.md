@@ -1,4 +1,5 @@
 ## DOC  
+
 > ls - список файлов
 > cd - cd путь\к папке
 > g++ Work_S1_1.cpp -o Work - Компиляция в windows  
