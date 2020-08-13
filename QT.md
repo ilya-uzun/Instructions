@@ -7,3 +7,10 @@
 ```
  #### преобразовываем int в QString    
  ```QString dec = QString::number(bc);```   
+ 
+ ### C++ c Qt и QML
+ 
+#### Cоздаём    
+> Qt Quick Applicacation - Empty   
+
+> qml.qrc - файл ресурсов   
