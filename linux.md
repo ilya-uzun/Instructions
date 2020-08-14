@@ -50,3 +50,7 @@ lscpu
 >zypper up             - обновить все установленные пакеты до последних версий, где возможно   
   
 [шпора](https://ru.opensuse.org/SDB:Zypper_использование_11.3)
+
+
+#### Настройка комбинаций для сменны языка KDE   
+> Input Devices->keybourd->Layouts (+Add)     
