@@ -23,3 +23,9 @@
 
 #### Компановщик
 [Инфа](http://knzsoft.ru/qt-bgr-ls2/)
+
+#### QMainWindow содержит;
+> QToolBars (панели инструментов)
+> QDockWidgets (стыкуемые окна)
+> QMenuBar (строка меню) 
+> QStatusBar (строка статуса)
