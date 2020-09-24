@@ -6,6 +6,10 @@ Windows - в консоле Git bash (необходимо установить 
 $ git config --global user.name "ilya-uzun"    
 $ git config --global user.email ilya.uzun@bk.ru   
 
+### смена пользователья или ошибка 403
+>git config --global credential.github.com.interactive always     
+>теперь пушим и вводим новые логин/пароль     
+
 ### Находясь в скаченном репозитории команды:
 > git status - статус проекта
 
