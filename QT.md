@@ -14,3 +14,9 @@
 > Qt Quick Applicacation - Empty   
 
 > qml.qrc - файл ресурсов   
+
+
+### элеметы 
+
+> QTextEdit - текстовое поле 
+> QLineEdit - текстова строка
