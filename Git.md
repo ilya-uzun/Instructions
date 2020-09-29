@@ -6,7 +6,7 @@ Windows - в консоле Git bash (необходимо установить 
 $ git config --global user.name "ilya-uzun"    
 $ git config --global user.email ilya.uzun@bk.ru   
 
-### смена пользователья или ошибка 403
+### смена пользователя или ошибка 403
 >git config --global credential.github.com.interactive always     
 >теперь пушим и вводим новые логин/пароль     
 
@@ -22,13 +22,13 @@ $ git config --global user.email ilya.uzun@bk.ru
 ### Скачать изменения в репозитории на ПК
 > git pull
 
-### Схема удаления из репозитория   
+### Добавление изменений
 1. git clone + адрес, если требуется
 2. git add -A
 3. git commit -m "Описать изменения" - По Русски почему-то не понимает
 4. git push
 
-### посчитать количество строк в файлах     
+### Посчитать количество строк в файлах     
 > git ls-files | xargs wc -l
 
 [ссылка](https://askdev.ru/q/kak-sohranit-imya-polzovatelya-i-parol-v-git-5753/)
@@ -37,5 +37,5 @@ $ git config --global user.email ilya.uzun@bk.ru
 
 [статья Ежедневная работа в Git](https://habr.com/ru/post/174467/)
 
-### запись в орегинальную ветку, что-бы отоброжались коммиты      
+### запись в оригинальную ветку, что-бы отоброжались коммиты      
 >git push -u origin master
