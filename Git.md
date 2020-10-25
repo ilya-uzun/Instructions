@@ -39,3 +39,6 @@ $ git config --global user.email ilya.uzun@bk.ru
 
 ### запись в оригинальную ветку, что-бы отоброжались коммиты      
 >git push -u origin master
+
+#### GitHub Pages
+[ссылка](https://ru.hexlet.io/courses/html/lessons/github/theory_unit)
