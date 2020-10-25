@@ -2,7 +2,7 @@
 
   [Инфа](https://github.com/emacs-tw/awesome-emacs#lisp-family)
   
-<p style = color:#006400 > Базовые клавиши </p>   
+
 >C-x C-f - открыть файл        
 >C-x C-s - Соранить файл        
 >C-x C-w - Соранить с новым именем         
