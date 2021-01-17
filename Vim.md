@@ -1,4 +1,5 @@
-### Создание файла и открытие файла
+
+"set noshowmode### Создание файла и открытие файла
 В командной строке пишем `vim name.type  
 
 ### Информация имяни и пути к файлу    
@@ -32,3 +33,24 @@
 
 ## Плагены
 The NERD rtee - каталог файлов
+
+### Настройка vim
+[видео настройка vim для С++ ](https://www.youtube.com/watch?v=gaxQoucrWrk)
+
+### Устанока плагинов
+
+1. Cоздать файл в домашней директории .vimrc   
+2. Установить curl - утилита позволяюая скачивать из интернета
+3. Прописываем в .vimrc  
+~~~ 
+call plug#begin('~/.vim/plugged')
+Plug ....
+....
+call plug#end()
+~~~
+4. команда дл запуска кода `:source %` или перезапустить файл
+5. Выполнить команду `:PlugInstall`
+
+### Нужные ссылки
+[github менеджер плагинов vim-plug](https://github.com/junegunn/vim-plug)
+[github тема тёмный атом](https://github.com/joshdick/onedark.vim)
