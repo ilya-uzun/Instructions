@@ -60,3 +60,6 @@ lscpu
 > sudo apt-get install lm-sensors     
 > sensors - команда вывести тепературу в консоль
 > watch sensors - отображение температуры в реалном времени (раз в две секунды)
+
+### VirtualBox на Ubuntu 
+Требуется запуст от root,чтобы виртуальная ОС видела USB
