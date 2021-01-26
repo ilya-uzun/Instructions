@@ -63,6 +63,9 @@ lscpu
 
 ### Инструкцияпо установки Arch 
 [ссылка](https://habr.com/ru/post/510158/)
+#### UEFI Shell:
+Если сломался загрузчик 
+[инфа по ремонту](https://www.bootdev.ru/2018/10/EFI-Shell-What-to-do-if-the-OS-does-not-loaded.html)
 
 ### VirtualBox на Ubuntu 
 Требуется запуст от root,чтобы виртуальная ОС видела USB
