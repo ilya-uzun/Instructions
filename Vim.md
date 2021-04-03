@@ -86,7 +86,7 @@ call plug#end()
 ### Нужные ссылки
 [github менеджер плагинов vim-plug](https://github.com/junegunn/vim-plug)
 [github тема тёмный атом](https://github.com/joshdick/onedark.vim)
-
+[шпоргалка](https://rtfm.co.ua/vim-poleznye-komandy/)
 
 #### The NERD rtee команды 
  Запуск :NERDTreeToggle     
