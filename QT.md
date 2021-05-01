@@ -43,3 +43,6 @@
 3. Наследовать от класса QWidgit      
 4. В Promoted class name: вписать имя нужного класса       
 5. Выбрать и нажвть кнопку Promote     
+
+### android
+[android](https://progtips.ru/qt/razrabotka-android-prilozheniya-chast-1-ustanovka-qt.html)
