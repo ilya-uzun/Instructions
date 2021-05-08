@@ -9,3 +9,15 @@
 >  kotlinc hello.kt  -include-runtime -d hello.jar - компиляция в исполнительный файл котлин    
 >   java -jar hello.jar - запуск
 >    
+
+
+### kotlin web 
+
+[инфа] (https://habr.com/ru/post/555744/)
+
+
+> ./gradlew run --continuous - запуск сервера с атообноление при изменении (работает не всегда правильно)     
+> ./gradlew browserDevelopmentWebpack - запустить компилятор  
+> нужная траница будет ваходится    
+
+
