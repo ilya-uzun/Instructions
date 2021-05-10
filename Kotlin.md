@@ -20,4 +20,5 @@
 > ./gradlew browserDevelopmentWebpack - запустить компилятор  
 > нужная траница будет ваходится    
 
-
+#### kotlin бибилеотеки для web
+[ссылка](https://github.com/JetBrains/kotlin-wrappers)
