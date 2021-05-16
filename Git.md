@@ -24,9 +24,20 @@ $ git config --global user.email ilya.uzun@bk.ru
 
 ### Добавление изменений
 1. git clone + адрес, если требуется
-2. git add -A
+2. git add -A - все файлы
 3. git commit -m "Описать изменения" - По Русски почему-то не понимает
 4. git push
+
+
+### Создание ветки
+> git branch <название_ветки>
+
+### Удаление  ветки
+> git push origin --delete <название_ветки> - позволи удалить из githab    
+
+### Слияние ветвей
+> git checkout master - где master <название_ветки>      
+> git merge <название_ветки>  - объединить ветки     
 
 ### Посчитать количество строк в файлах     
 > git ls-files | xargs wc -l
