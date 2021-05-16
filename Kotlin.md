@@ -6,7 +6,7 @@
 > kotlin HelloKt - запуск файла на машине котлин    
 
 ### компиляция  и запуск
->  kotlinc hello.kt  -include-runtime -d hello.jar - компиляция в исполнительный файл котлин    
+>  kotlinc app.kt -include-runtime -d app.jar - компиляция в исполнительный файл котлин    
 >   java -jar hello.jar - запуск
 
 ### kotlin web 
