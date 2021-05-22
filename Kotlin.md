@@ -6,7 +6,7 @@
 > kotlin HelloKt - запуск файла на машине котлин    
 
 ### компиляция  и запуск
->  kotlinc app.kt -include-runtime -d app.jar - компиляция в исполнительный файл котлин    
+>  java - компиляция в исполнительный файл котлин    
 >   java -jar hello.jar - запуск
 
 ### kotlin web 
@@ -32,6 +32,10 @@
 
 [видео с инструкцие](https://www.youtube.com/watch?v=HCY4KXw7geM)
 
+
+### Автоматическое создание функций  классе
+> equals и hashCode для map    
+> Generate -> equals() and hashCode()    
 
 ### Kotlin Markdown
 [Чтение файла](https://fox-code.ru/a/kak-zapisat-i-prochitat-fajl-v-kotlin/)   
