@@ -24,3 +24,16 @@
 
 #### kotlin бибилеотеки для web
 [ссылка](https://github.com/JetBrains/kotlin-wrappers)
+
+
+### Intelliy
+#### Создание и запуск Jar пакета
+> gredle build assemble - сборка пакета, можно 
+
+[видео с инструкцие](https://www.youtube.com/watch?v=HCY4KXw7geM)
+
+
+### Kotlin Markdown
+[Чтение файла](https://fox-code.ru/a/kak-zapisat-i-prochitat-fajl-v-kotlin/)   
+[ссылка](https://github.com/Steppschuh/Java-Markdown-Generator)    
+[ссылка](https://github.com/IlyasYOY/kotlin-markdown)    
