@@ -13,3 +13,10 @@
 
 #### Эмулятор в Visio Studio code
 [Android iOS Emulator] (https://marketplace.visualstudio.com/items?itemName=DiemasMichiels.emulate)
+
+#### Эмулятор Intel HAXM 
+(GitHub)[https://github.com/intel/haxm/blob/master/docs/manual-linux.md]      
+
+
+#### Intel Energy Checker SDK
+> Программа для котроля энергопотребления 

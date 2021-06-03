@@ -7,12 +7,12 @@
 
 ### компиляция  и запуск
 >  kotlinc map.kt -include-runtime -d app.jar - компиляция в исполнительный файл котлин    
->   java -jar hello.jar - запуск
+>  java -jar hello.jar - запуск
 
 ### kotlin web 
 
 [инфа] (https://habr.com/ru/post/555744/)
-
+[Интересные проекы] (https://github.com/kotlin-hands-on)
 
 > ./gradlew run --continuous - запуск сервера с атообноление при изменении (работает не всегда правильно)     
 > ./gradlew browserDevelopmentWebpack - запустить компилятор  
@@ -36,6 +36,11 @@
 ### Автоматическое создание функций  классе
 > equals и hashCode для map    
 > Generate -> equals() and hashCode()    
+
+### Ввод/Вывод в консоль
+> print ("Value") - вывод в консоль      
+> println ("Value") - вывод в консоль с переходом на новую строку
+> val value = readLine()  - ввод и запись в переменную      
 
 ### Kotlin Markdown
 [Чтение файла](https://fox-code.ru/a/kak-zapisat-i-prochitat-fajl-v-kotlin/)   
