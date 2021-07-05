@@ -7,7 +7,7 @@
 ### список репозиторий в файле
 > sudo vim /etc/apt/sources.list
 
-### посмотреть виде карту      
+### посмотреть видеo карту      
 >lspci -k | egrep -iA3 'vga|video|3d'
 
 ### Инфа по системе
@@ -128,5 +128,9 @@ lscpu
 > pacman -Syu    
 
 
+#### Ubuntu wifi terminal
+### Name Utelite `nmcli`     
+> nmcli connection up "Name_network" --ask         
+> Enter password      
 
 
