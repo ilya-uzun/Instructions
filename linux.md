@@ -7,6 +7,10 @@
 ### список репозиторий в файле
 > sudo vim /etc/apt/sources.list
 
+### Список установленых прогррамм
+> gpkg -l     
+> snap lisp - список пакетов менеджера snap     
+
 ### посмотреть видеo карту      
 >lspci -k | egrep -iA3 'vga|video|3d'
 
