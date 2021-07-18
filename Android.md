@@ -20,3 +20,16 @@
 
 #### Intel Energy Checker SDK
 > Программа для котроля энергопотребления 
+
+
+#### Добавление своего логотипа
+
+1. (Сервис для генерации разных размеров)[https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html]     
+
+2. Заменить иконки по умолчанию в папке mipmap      
+
+3. В AndroidManifest.xml изсениеть путь к логотипам       
+```xml
+    android:icon="@mipmap/ic_launcher_square"
+    android:roundIcon="@mipmap/ic_launcher_circle"
+```
