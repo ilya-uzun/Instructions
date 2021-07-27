@@ -33,3 +33,5 @@
     android:icon="@mipmap/ic_launcher_square"
     android:roundIcon="@mipmap/ic_launcher_circle"
 ```
+### Dart
+> [Инструкция по установки](https://dart.dev/get-dart)    
