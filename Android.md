@@ -35,3 +35,17 @@
 ```
 ### Dart
 > [Инструкция по установки](https://dart.dev/get-dart)    
+
+
+###  AndroidManifest
+
+> Пользовательское разрешение для работы с интернетом     
+~~~xml
+<uses-permission android:name="android.permission.INTERNET"/>
+~~~
+
+> Если сертификат не распространяется на поддомены, внести в блок application      
+~~~xml
+android:usesCleartextTraffic="true" 
+~~~
+
