@@ -53,3 +53,7 @@ $ git config --global user.email ilya.uzun@bk.ru
 
 #### GitHub Pages
 [ссылка](https://ru.hexlet.io/courses/html/lessons/github/theory_unit)
+
+
+#### Токен вход
+[сылка на инструкцию](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)    
