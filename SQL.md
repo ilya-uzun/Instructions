@@ -24,3 +24,4 @@
 ### PostgreSQL   
 ``` systemctl status postgresql ``` - проерить статус серверов    
 ``` sudo -u postgres psql``` - вход через пользователя на пользователя postgres  и запуск консоль для PostgreSQL.
+```  \q ``` - выход из консоли PostgreSQL     
