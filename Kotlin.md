@@ -42,6 +42,11 @@
 > println ("Value") - вывод в консоль с переходом на новую строку
 > val value = readLine()  - ввод и запись в переменную      
 
+
+### Функция с одним вырожением      
+`fun double(x: Int): Int = x * 2`     
+
+
 ### Kotlin Markdown
 [Чтение файла](https://fox-code.ru/a/kak-zapisat-i-prochitat-fajl-v-kotlin/)   
 [ссылка](https://github.com/Steppschuh/Java-Markdown-Generator)    
