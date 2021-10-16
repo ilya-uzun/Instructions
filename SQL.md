@@ -22,6 +22,9 @@
 * SAVEPOINT делит транзакцию на более мелкие участки.    
 
 ### PostgreSQL   
-``` systemctl status postgresql ``` - проерить статус серверов    
+``` systemctl status postgresql ``` - проверить статус серверов    
 ``` sudo -u postgres psql``` - вход через пользователя на пользователя postgres  и запуск консоль для PostgreSQL.
+
+``` psql ``` - вход в консоль PostgreSQL      
 ```  \q ``` - выход из консоли PostgreSQL     
+(Инструкция)[https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04-ru]
