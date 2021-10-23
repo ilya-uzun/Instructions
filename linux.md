@@ -98,7 +98,7 @@ lscpu
 [ссылка](https://habr.com/ru/news/t/539526/)
 
 
-#### Пакетный менеджер FreeBSD и на Termux (эмулятор на андройде
+#### Пакетный менеджер FreeBSD и на Termux (эмулятор на андройде)
 > pkg install пакет
 
 ### Arch
@@ -130,6 +130,25 @@ lscpu
 > pacman -Rsn $(pacman -Qdtq)    
 #### Обнавление    
 > pacman -Syu    
+
+
+### Установка Arch Linux
+#### Подключение к интернету
+> Проводное соединение подклюается автоматически если нет см. п.2
+1. Проверка подкючения
+> ```ping -c 3 google.com``` - где (-c 3)  количесто пингов     
+##### Подключение wi-fi 
+2. Посмореть имя сетевого подключения ```ip a```
+3. Разблокировать сетевой адаптер ```rfkill unblock wifi```
+4. Включить сетевой адаптер ```ip link set wlan0``` - где wlan0 имя сети
+5. Запустить программу для ручного подключения [iwctl](https://wiki.archlinux.org/title/Iwd_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9))
+5.1 [iwd]#```station wlan0 connect nameWifi```      
+5.2 passphrase: - ввести пароль     
+5.3 [iwd]#```exit```  - выход   
+
+>Важно если после подключение не пингуется google.com, то проблеа с адресами DNS
+исправить  в ```nano /ect/resolv.conf``` дописать : ``` nameserver 8.8.4.4      
+
 
 
 #### Ubuntu wifi terminal
