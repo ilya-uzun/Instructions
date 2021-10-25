@@ -9,6 +9,18 @@
 >  kotlinc map.kt -include-runtime -d app.jar - компиляция в исполнительный файл котлин    
 >  java -jar app.jar - запуск
 
+
+### Типы данных
+> Целочисленые
+> Byte: 8 bits (1 byte), range varies from -128 to 127;          
+> Short: 16 bits (2 bytes), range varies from -32768 to 32767;           
+> Int: 32 bits (4 bytes), range varies from −(2^31) to (2^31)−1;          
+> Long: 64 bits (8 bytes), range varies from −(2^63) to (2^63)−1.          
+
+> Вещественные      
+> Double (64 bits)  val pi = 3.1415  // Double      
+> Float (32 bits) val e = 2.71828f // Float because it is tagged with f      
+.
 ### kotlin web 
 
 [инфа] (https://habr.com/ru/post/555744/)
