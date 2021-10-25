@@ -11,7 +11,7 @@
 
 
 ### Типы данных
-> Целочисленые
+> Целочисленые        
 > Byte: 8 bits (1 byte), range varies from -128 to 127;          
 > Short: 16 bits (2 bytes), range varies from -32768 to 32767;           
 > Int: 32 bits (4 bytes), range varies from −(2^31) to (2^31)−1;          
