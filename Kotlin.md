@@ -20,8 +20,19 @@
 > Вещественные      
 > Double (64 bits)  val pi = 3.1415  // Double      
 > Float (32 bits) val e = 2.71828f // Float because it is tagged with f      
-.
+
+
+#### Перобразование типов
+> ```val b: Boolean = readLine().toBoolean() ``` - преобразование в bool
+
+
+### Логичесике выражения
+>  ```val party = invitation && gift``` - логичесике выражения можно использовать в инициализации переменной 
 ### kotlin web 
+> ! for NOT    
+> xor for XOR    
+> && for AND    
+> || for OR     
 
 [инфа] (https://habr.com/ru/post/555744/)
 [Интересные проекы] (https://github.com/kotlin-hands-on)
