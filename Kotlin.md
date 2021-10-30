@@ -22,6 +22,9 @@
 > Float (32 bits) val e = 2.71828f // Float because it is tagged with f      
 
 
+### Магичесике числа
+> Числа с неочевидным значением, рекомендуется числа задавать как константы ```val MY_CONST = "something"```       
+
 #### Перобразование типов
 > ```val b: Boolean = readLine().toBoolean() ``` - преобразование в bool
 
@@ -38,7 +41,7 @@
 > ++ф - выполняется до присваивания
 
 [инфа] (https://habr.com/ru/post/555744/)
-[Интересные проекы] (https://github.com/kotlin-hands-on)
+[Интересные проеnты] (https://github.com/kotlin-hands-on)
 
 > ./gradlew run --continuous - запуск сервера с атообноление при изменении (работает не всегда правильно)     
 > ./gradlew browserDevelopmentWebpack - запустить компилятор  
