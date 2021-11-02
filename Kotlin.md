@@ -44,7 +44,11 @@
 
 > a++ - выполняется после присваивания
 > ++a - выполняется до присваивания      
-> 
+
+#### Strind
+> variable.lengеh - выведит длину строки
+> variable.repect(3) - повторит строку указанное количесиво раз  
+
 ### kotlin web 
 [инфа] (https://habr.com/ru/post/555744/)
 [Интересные проеnты] (https://github.com/kotlin-hands-on)
@@ -59,7 +63,6 @@
 
 #### kotlin бибилеотеки для web
 [ссылка](https://github.com/JetBrains/kotlin-wrappers)
-
 
 ### Intelliy
 #### Создание и запуск Jar пакета
