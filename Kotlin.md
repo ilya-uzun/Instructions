@@ -9,6 +9,7 @@
 >  kotlinc map.kt -include-runtime -d app.jar - компиляция в исполнительный файл котлин    
 >  java -jar app.jar - запуск
 
+### Идеомы - [стиль Kotlin](https://kotlinlang.org/docs/idioms.html)
 
 ### Типы данных
 > Целочисленые        
