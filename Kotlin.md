@@ -46,9 +46,16 @@
 > a++ - выполняется после присваивания
 > ++a - выполняется до присваивания      
 
-#### Strind
+#### String
 > variable.lengеh - выведит длину строки
 > variable.repect(3) - повторит строку указанное количесиво раз  
+
+#### Пример 
+~~~
+    val string = readLine()!! 
+    val len = string.length  
+    println("$len repetitions of the word $string: ${string.repeat(len)}")
+~~~
 
 ### kotlin web 
 [инфа] (https://habr.com/ru/post/555744/)
