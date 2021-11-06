@@ -9,6 +9,7 @@
 >  kotlinc map.kt -include-runtime -d app.jar - компиляция в исполнительный файл котлин    
 >  java -jar app.jar - запуск
 
+### Идеомы - [стиль Kotlin](https://kotlinlang.org/docs/idioms.html)
 
 ### Типы данных
 > Целочисленые        
@@ -32,15 +33,35 @@
 ### Логичесике выражения
 >  ```val party = invitation && gift``` - логичесике выражения можно использовать в инициализации переменной    
 
-### kotlin web 
+> == - сравнение объектов    
+> != - объекты не равны то (true)
+> === - сравнение ссылок на объектов     
+> !== - ссылок не равны то (true)  
+
 > ! for NOT    
 > xor for XOR    
 > && for AND    
 > || for OR     
 
 > a++ - выполняется после присваивания
+<<<<<<< HEAD
 > ++a - выполняется до присваивания
+=======
+> ++a - выполняется до присваивания      
 
+#### String
+> variable.lengеh - выведит длину строки
+> variable.repect(3) - повторит строку указанное количесиво раз  
+>>>>>>> 122fc1246ccfae25357a4a80632bbc76663759f5
+
+#### Пример 
+~~~
+    val string = readLine()!! 
+    val len = string.length  
+    println("$len repetitions of the word $string: ${string.repeat(len)}")
+~~~
+
+### kotlin web 
 [инфа] (https://habr.com/ru/post/555744/)
 [Интересные проеnты] (https://github.com/kotlin-hands-on)
 
@@ -54,7 +75,6 @@
 
 #### kotlin бибилеотеки для web
 [ссылка](https://github.com/JetBrains/kotlin-wrappers)
-
 
 ### Intelliy
 #### Создание и запуск Jar пакета
