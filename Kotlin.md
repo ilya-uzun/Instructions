@@ -108,6 +108,14 @@
 > ```val max = if (a > b) a else b ```  - вожно использовать в сочетание с else
 
 
+#### Примеры
+> Привет условного оператора без val
+~~~
+    readLine()!!.toInt().let {
+        print(if (it in (-14..12).union(15..16) || it in 19..Int.MAX_VALUE) "True" else "False")
+    }
+~~~
+
 ### Kotlin Markdown
 [Чтение файла](https://fox-code.ru/a/kak-zapisat-i-prochitat-fajl-v-kotlin/)   
 [ссылка](https://github.com/Steppschuh/Java-Markdown-Generator)    
