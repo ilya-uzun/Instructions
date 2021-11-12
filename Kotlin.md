@@ -95,8 +95,8 @@
 
 #### Ввод с использованием Java [класса](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html) 
 > ```import java.util.Scanner``` - объявление библиотеки       
-> ```val scanner = Scanner(System.`in`) - создание объекта класса Scanner    
-> ```val value = scanner.nextLine()  -  ввод линии, next() ввод слова, nextInt() ввод числа           
+> ```val scanner = Scanner(System.`in`)``` - создание объекта класса Scanner    
+> ```val value = scanner.nextLine()```  -  ввод линии, next() ввод слова, nextInt() ввод числа           
 
 
 ### Функция с одним вырожением      
