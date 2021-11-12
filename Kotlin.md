@@ -90,7 +90,7 @@
 ### Ввод/Вывод в консоль
 > ```print ("Value")``` - вывод в консоль      
 > ```println ("Value")``` - вывод в консоль с переходом на новую строку
-> ```val value = readLine()!!```  - ввод и запись в переменную, kotlin    
+> ```val value = readLine()!!```  - ввод и запись в переменную, kotlin
 
 
 #### Ввод с использованием Java [класса](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html) 
@@ -106,9 +106,8 @@
 ### Идиома
 #### if
 > ```val max = if (a > b) a else b ```  - вожно использовать в сочетание с else
-
 > Пример использования вместе с инициализацией переменной ```var number = 1 repeat(5) { number++ } println(number)```
->
+
 
 #### Примеры
 > Привет условного оператора без val
