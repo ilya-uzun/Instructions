@@ -90,9 +90,10 @@
 ### Ввод/Вывод в консоль
 > ```print ("Value")``` - вывод в консоль      
 > ```println ("Value")``` - вывод в консоль с переходом на новую строку
-> ```val value = readLine()!!```  - ввод и запись в переменную, kotlin
-
-
+> ```val value = readLine()!!```  - ввод и запись в переменную    
+> ```val value = readLine()!!.toInt()```  - ввод и запись числа      
+>  ```val value = readLine()!!.first()```  - ввод и запись символа char  
+      
 #### Ввод с использованием Java [класса](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html) 
 > ```import java.util.Scanner``` - объявление библиотеки       
 > ```val scanner = Scanner(System.`in`)``` - создание объекта класса Scanner    
@@ -101,7 +102,6 @@
 
 ### Функция с одним вырожением      
 ```fun double(x: Int): Int = x * 2```  
-
 
 ### Идиома
 #### if
@@ -121,3 +121,12 @@
 [Чтение файла](https://fox-code.ru/a/kak-zapisat-i-prochitat-fajl-v-kotlin/)   
 [ссылка](https://github.com/Steppschuh/Java-Markdown-Generator)    
 [ссылка](https://github.com/IlyasYOY/kotlin-markdown)    
+
+### Символы упровления строки
+> ```'\n'``` это символ новой строки;     
+> ```'\t'``` символ табуляции;     
+> ```'\r'``` символ возврата каретки;     
+> ```'\\'``` это сам символ обратной косой черты;     
+> ```'\''``` это одинарная кавычка;     
+> ```'\"'``` это двойная кавычка.     
+
