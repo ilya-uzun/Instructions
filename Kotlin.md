@@ -128,3 +128,6 @@
 > ```'\''``` это одинарная кавычка;     
 > ```'\"'``` это двойная кавычка.     
 
+#### Kotlin mode emacs
+[](https://github.com/Emacs-Kotlin-Mode-Maintainers/kotlin-mode)
+
