@@ -60,8 +60,8 @@
 ~~~
 
 ### kotlin web 
-[инфа] (https://habr.com/ru/post/555744/)
-[Интересные проеnты] (https://github.com/kotlin-hands-on)
+[инфа](https://habr.com/ru/post/555744/)
+[Интересные проекты](https://github.com/kotlin-hands-on)
 
 > ./gradlew run --continuous - запуск сервера с обновние при изменении (работает не всегда правильно)     
 > ./gradlew browserDevelopmentWebpack - запустить компилятор  
