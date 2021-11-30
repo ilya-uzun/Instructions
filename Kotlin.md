@@ -133,3 +133,16 @@
 #### Kotlin mode emacs
 [](https://github.com/Emacs-Kotlin-Mode-Maintainers/kotlin-mode)
 
+
+
+
+
+### Примеры удачного кода
+> Вхождение в диапазон считываемого числа    
+~~~kotlin
+const val LOWER_BOUND = 18 // Магические числа для уменьшения вероятности ошибок
+const val UPPER_BOUND = 59
+fun main() {
+    println(readLine()!!.toInt() in LOWER_BOUND..UPPER_BOUND) // Считываем и проверяем на вхождение
+}
+~~~
