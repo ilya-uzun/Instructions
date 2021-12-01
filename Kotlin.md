@@ -103,14 +103,21 @@
 ### Функция с одним вырожением      
 ```fun double(x: Int): Int = x * 2```  
 
-### Идиома
+### Идиомы
 #### if
 > ```val max = if (a > b) a else b ```  - вожно использовать в сочетание с else
-> Пример использования вместе с инициализацией переменной ```var number = 1 repeat(5) { number++ } println(number)```
-
+> Пример использования вместе с инициализацией переменной ```var number = 1 repeat(5) { number++ } println(number)```    
+> 
+#### for
+~~~kotlin
+for (i in 1..6) { ... }        // closed range: 1, 2, 3, 4, 5, 6
+for (i in 1 until 6) { ... }   // half-open range: 1, 2, 3, 4, 5
+for (x in 1..6 step 2) { ... } // step 2: 1, 3, 5
+for (x in 6 downTo 1) { ... }  // closed range, backward order: 6, 5, 4, 3, 2, 1 
+~~~
 
 #### Примеры
-> Привет условного оператора без val
+> Пример условного оператора без val
 ~~~
     readLine()!!.toInt().let {
         print(if (it in (-14..12).union(15..16) || it in 19..Int.MAX_VALUE) "True" else "False")
