@@ -23,6 +23,11 @@
 > Float (32 bits) val e = 2.71828f // Float because it is tagged with f      
 
 
+#### Библиотеки
+> Математика ```import kotlin.math.pow```   
+> Пример ```x.toDouble().pow(3.0)``` или ```Math.pow(x.toDouble(), 3.0)```    
+~~~
+
 ### Магичесике числа
 > Числа с неочевидным значением, рекомендуется числа задавать как константы ```const val MY_CONST = "something"```       
 
@@ -141,9 +146,6 @@ for (x in 6 downTo 1) { ... }  // closed range, backward order: 6, 5, 4, 3, 2, 1
 [](https://github.com/Emacs-Kotlin-Mode-Maintainers/kotlin-mode)
 
 
-
-
-
 ### Примеры удачного кода
 > Вхождение в диапазон считываемого числа    
 ~~~kotlin
@@ -151,5 +153,15 @@ const val LOWER_BOUND = 18 // Магические числа для умень�
 const val UPPER_BOUND = 59
 fun main() {
     println(readLine()!!.toInt() in LOWER_BOUND..UPPER_BOUND) // Считываем и проверяем на вхождение
+}
+~~~
+
+> Функция возведения в квадрат    
+~~~kotlin
+private fun Int.pow(x: Int): Int = (2..x).fold(this) { r, _ -> r * this }
+fun main() {
+    var cor: Int = 2
+    val result = cor.pow(4) // взвести 2 в степень 4
+    println("Result: ${result}")
 }
 ~~~
