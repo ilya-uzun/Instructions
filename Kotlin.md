@@ -23,6 +23,9 @@
 > Float (32 bits) val e = 2.71828f // Float because it is tagged with f      
 
 
+### Массивы
+> indices
+
 #### Библиотеки
 > Математика ```import kotlin.math.pow```   
 > Пример ```x.toDouble().pow(3.0)``` или ```Math.pow(x.toDouble(), 3.0)```    
