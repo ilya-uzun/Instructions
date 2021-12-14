@@ -101,7 +101,7 @@
 > ```println ("Value")``` - вывод в консоль с переходом на новую строку
 > ```val value = readLine()!!```  - ввод и запись в переменную    
 > ```val value = readLine()!!.toInt()```  - ввод и запись числа      
->  ```val value = readLine()!!.first()```  - ввод и запись символа char  
+> ```val value = readLine()!!.first()```  - ввод и запись символа char  
       
 #### Ввод с использованием Java [класса](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html) 
 > ```import java.util.Scanner``` - объявление библиотеки       
@@ -121,6 +121,7 @@
 > Пример использования вместе с инициализацией переменной ```var number = 1 repeat(5) { number++ } println(number)```    
 > 
 #### for
+> i переменная в видемости цикла for присваивается первое знвчение дипазона, Например ```for (i in a..b)``` i = a    
 ~~~kotlin
 for (i in 1..6) { ... }        // closed range: 1, 2, 3, 4, 5, 6
 for (i in 1 until 6) { ... }   // half-open range: 1, 2, 3, 4, 5
