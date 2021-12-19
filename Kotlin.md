@@ -99,16 +99,18 @@
 > Generate -> equals() and hashCode()    
 
 ### Ввод/Вывод в консоль
-> ```print ("Value")``` - вывод в консоль      
-> ```println ("Value")``` - вывод в консоль с переходом на новую строку
-> ```val value = readLine()!!```  - ввод и запись в переменную    
-> ```val value = readLine()!!.toInt()```  - ввод и запись числа      
-> ```val value = readLine()!!.first()```  - ввод и запись символа char  
+>```print ("Value")``` - вывод в консоль      
+>```println ("Value")``` - вывод в консоль с переходом на новую строку
+>```val value = readLine()!!```  - ввод и запись в переменную    
+>```val value = readLine()!!.toInt()```  - ввод и запись числа      
+>```val value = readLine()!!.first()```  - ввод и запись символа char  
+>```val (a, b, c) = readLine()!!.split(' ').map(String::toInt)``` - ввод Int через пробел в одну строку    
+
       
 #### Ввод с использованием Java [класса](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html) 
 > ```import java.util.Scanner``` - объявление библиотеки       
 > ```val scanner = Scanner(System.`in`)``` - создание объекта класса Scanner    
-> ```val value = scanner.nextLine()```  -  ввод линии, next() ввод слова, nextInt() ввод числа           
+> ```val value = scanner.nextLine()```  -  ввод линии, next() ввод слова, nextInt() ввод числа    
 
 
 ### Функция с одним вырожением      
