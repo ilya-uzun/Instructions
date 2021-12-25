@@ -149,7 +149,8 @@ lscpu
 >Важно если после подключение не пингуется google.com, то проблеа с адресами DNS
 исправить  в ```nano /ect/resolv.conf``` дописать : ``` nameserver 8.8.4.4      
 
-
+### Поиск пакетов по названию 
+> ```pacman -Ss '^vim-'```    
 
 #### Ubuntu wifi terminal
 ### Name Utelite `nmcli`     
