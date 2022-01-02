@@ -141,6 +141,9 @@ for (x in 6 downTo 1) { ... }  // closed range, backward order: 6, 5, 4, 3, 2, 1
     }
 ~~~
 
+### Чтение/заптсь файлов 
+[ссылка](https://russianblogs.com/article/3510104260/)
+
 ### Kotlin Markdown
 [Чтение файла](https://fox-code.ru/a/kak-zapisat-i-prochitat-fajl-v-kotlin/)   
 [ссылка](https://github.com/Steppschuh/Java-Markdown-Generator)    
