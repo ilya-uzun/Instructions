@@ -157,4 +157,5 @@ lscpu
 > nmcli connection up "Name_network" --ask         
 > Enter password      
 
-
+#### Удаление лишних разделов от старой ось в  UEFI     
+> GParted     
