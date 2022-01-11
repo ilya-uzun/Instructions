@@ -8,7 +8,7 @@
 > sudo mv ~/Загрузки/android-studio /opt/.
 
 
-#### Установка, команда:    
+#### Скрипт для установки находится:    
 > /opt/android-studio/bin/studio.sh
 
 #### Эмулятор в Visio Studio code
