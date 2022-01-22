@@ -106,6 +106,18 @@
 >```val value = readLine()!!.first()```  - ввод и запись символа char  
 >```val (a, b, c) = readLine()!!.split(' ').map(String::toInt)``` - ввод Int через пробел в одну строку    
 
+#### Вывод массива (в одну строку, без пробелов)
+> Через цикл for     
+~~~
+    for (i in myArray) {
+        print("$i")
+    }
+~~~
+> через метод forEach    
+~~~
+    myArray.forEach { print(it) }
+~~~
+
       
 #### Ввод с использованием Java [класса](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html) 
 > ```import java.util.Scanner``` - объявление библиотеки       
