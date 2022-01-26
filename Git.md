@@ -25,7 +25,7 @@ $ git config --global user.email ilya.uzun@bk.ru
 ### Добавление изменений
 1. git clone + адрес, если требуется
 2. git add -A - все файлы
-3. git commit -m "Описать изменения" - По Русски почему-то не понимает
+3. git commit -m "Описать изменения" 
 4. git push
 
 
