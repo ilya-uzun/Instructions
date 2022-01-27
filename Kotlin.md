@@ -1,6 +1,8 @@
 ### Устанока 
 >`sudo snap install --classic kotlin` - установка через snap пакет     
 
+### [Веб Руководство](https://metanit.com/kotlin/tutorial)
+
 #### Запуск машины
 > kotlinc   
 > kotlin HelloKt - запуск файла на машине котлин    
