@@ -138,6 +138,7 @@
 ### Идиомы
 #### if
 > ```val max = if (a > b) a else b ```  - вожно использовать в сочетание с else
+> ```fun areaOrPerimeter(l:Int, w:Int):Int = if (l == w) l*w else (l+w)*2``` -  пример с использованием выражений    
 > Пример использования вместе с инициализацией переменной ```var number = 1 repeat(5) { number++ } println(number)```    
 > 
 #### for
