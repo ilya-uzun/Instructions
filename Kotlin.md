@@ -120,6 +120,9 @@
     myArray.forEach { print(it) }
 ~~~
 
+    
+### Object    
+> Одновременное создание класс и определение  объекта
       
 #### Ввод с использованием Java [класса](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html) 
 > ```import java.util.Scanner``` - объявление библиотеки       
@@ -131,7 +134,6 @@
 ```fun double(x: Int): Int = x * 2```  
 #### Функции
 > Функция которая возвращает массив ```fun createArray(): IntArray {... return arr}    
-
 
 ### Идиомы
 #### if
