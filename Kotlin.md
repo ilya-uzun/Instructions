@@ -158,7 +158,7 @@ for (x in 6 downTo 1) { ... }  // closed range, backward order: 6, 5, 4, 3, 2, 1
     }
 ~~~
 
-### Чтение/заптсь файлов 
+### Чтение/запись файлов 
 [ссылка](https://russianblogs.com/article/3510104260/)
 
 ### Kotlin Markdown
