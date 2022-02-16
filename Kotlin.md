@@ -146,6 +146,9 @@ fun points(games: List<String>): Int {
 #### Функции
 > Функция которая возвращает массив ```fun createArray(): IntArray {... return arr}    
 
+#### TODO() 
+> функция заглушка, нужна чтобы компелятор не выдовал ошибку на не реалезуемые функции ```fun decode(str: String): Int = TODO()```    
+    
 ### Идиомы
 #### if
 > ```val max = if (a > b) a else b ```  - вожно использовать в сочетание с else
