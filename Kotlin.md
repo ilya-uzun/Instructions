@@ -24,6 +24,16 @@
 > Double (64 bits)  val pi = 3.1415  // Double      
 > Float (32 bits) val e = 2.71828f // Float because it is tagged with f      
 
+#### Преобразование List<String> to Int
+~~~ 
+fun points(games: List<String>): Int {
+    var tot: Int = 0
+    for ( i in games){
+        var pointX = i.first().toString().toInt()
+        return pointX
+    }
+}
+~~~
 
 ### Массивы
 > indices - функция для перебора массива
@@ -144,7 +154,7 @@
 > 
 #### for
 > i переменная в видемости цикла for присваивается первое значение дипазона, Например ```for (i in a..b)``` i = a    
-~~~kotlin
+~~~Kotlin
 for (i in 1..6) { ... }        // closed range: 1, 2, 3, 4, 5, 6
 for (i in 1 until 6) { ... }   // half-open range: 1, 2, 3, 4, 5
 for (x in 1..6 step 2) { ... } // step 2: 1, 3, 5
@@ -181,7 +191,7 @@ for (x in 6 downTo 1) { ... }  // closed range, backward order: 6, 5, 4, 3, 2, 1
 
 ### Примеры удачного кода
 > Вхождение в диапазон считываемого числа    
-~~~kotlin
+~~~Kotlin
 const val LOWER_BOUND = 18 // Магические числа для уменьшения вероятности ошибок
 const val UPPER_BOUND = 59
 fun main() {
@@ -190,7 +200,7 @@ fun main() {
 ~~~
 
 > Функция возведения в квадрат    
-~~~kotlin
+~~~Kotlin
 private fun Int.pow(x: Int): Int = (2..x).fold(this) { r, _ -> r * this }
 fun main() {
     var cor: Int = 2
