@@ -211,3 +211,10 @@ fun main() {
     println("Result: ${result}")
 }
 ~~~
+    
+### Использование filter для поиска в списке    
+~~~Kotlin
+fun getCount(str: String): Int{
+    val vowels = listOf<Char>('a', 'e', 'i', 'o', 'u')
+    return str.toCharArray().filter { vowels.contains(it) }.count()
+}
