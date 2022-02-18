@@ -42,6 +42,11 @@ fun points(games: List<String>): Int {
 > ```val a = mutableListOf<Int>()````создание пустого изменяемый список     
 > ```a.add(переменная)``` - добавление элемента в массив    
 > Оператор drop(Int) и dropLast(Int) - удалит указаное количество элементов и начала и с конца    
+~~~Kotlin
+    val removeChar = {str: String-> str.drop(1).dropLast(1)} // удалить первый и последний символ строки    
+~~~
+    
+    
 #### Библиотеки
 > Математика ```import kotlin.math.pow```   
 > Пример ```x.toDouble().pow(3.0)``` или ```Math.pow(x.toDouble(), 3.0)```    
