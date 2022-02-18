@@ -72,7 +72,7 @@ fun points(games: List<String>): Int {
 
 #### [Диапазоны](https://hyperskill.org/learn/step/4633)
 
-#### String
+#### [String](https://www.fandroid.info/4-osnovy-kotlin-spiski/3/)
 > variable.lengеh - выведит длину строки
 > variable.repect(3) - повторит строку указанное количесиво раз  
 > variable.isEmpty() - проверить пустая ли строка
