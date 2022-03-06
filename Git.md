@@ -56,7 +56,7 @@ $ git config --global user.email ilya.uzun@bk.ru
 
 
 #### Токен вход
-[сылка на инструкцию](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)    
+[cсылка на инструкцию](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)    
 #### Инстукция создания токен на GitHub
 > Setting -> Developev settings -> Rersonal access tokens -> выбрать галочки repo + кнопка    
 
