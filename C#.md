@@ -1,4 +1,4 @@
-### dвод формы строки
+### ввод формы строки
 [ссылка](https://docs.microsoft.com/ru-ru/dotnet/api/system.double.tostring?view=net-5.0)    
 
 > Пример
