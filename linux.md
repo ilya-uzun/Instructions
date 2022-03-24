@@ -133,7 +133,8 @@ lscpu
 > pacman -Rsn $(pacman -Qdtq)    
 #### Обнавление    
 > pacman -Syu    
-
+#### Информация о пакете и его зависимостях
+> pacman -S $(pactree -lu iwd)    
 
 ### Установка Arch Linux
 #### Подключение к интернету
@@ -148,6 +149,11 @@ lscpu
 5.1 [iwd]#```station wlan0 connect nameWifi```      
 5.2 passphrase: - ввести пароль     
 5.3 [iwd]#```exit```  - выход   
+##### Совет по подчлючению через iw
+> iw dev    
+> iw dev wlan0 scan | grep SSID    
+> iwctl --passphrase "password" station wlan0 connect SSID    
+
 
 >Важно если после подключение не пингуется google.com, то проблеа с адресами DNS
 исправить  в ```nano /ect/resolv.conf``` дописать : ``` nameserver 8.8.4.4      
@@ -164,6 +170,10 @@ lscpu
 > И выполнить сборку (установку) командой:    
 > ```makepkg -si```     
 
+
+
+
+
 #### Ubuntu wifi terminal
 ### Name Utelite `nmcli`     
 > nmcli connection up "Name_network" --ask         
@@ -171,7 +181,6 @@ lscpu
 
 #### Удаление лишних разделов от старой ось в  UEFI     
 > GParted     
-
 
 ##### Запись экрана:
 > ffmpeg -f x11grab -y -r 30 -s 1600x900 -i :0.0 -vcodec huffyuv out.avi
