@@ -181,7 +181,7 @@ lscpu
 > И выполнить сборку (установку) командой:    
 > ```makepkg -si```     
 
-
+### [Список програм](https://wiki.archlinux.org/title/List_of_applications)
 
 
 
