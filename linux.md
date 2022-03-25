@@ -65,12 +65,6 @@ lscpu
 > sensors - команда вывести тепературу в консоль
 > watch sensors - отображение температуры в реалном времени (раз в две секунды)
 
-### Инструкция по установки Arch 
-[ссылка](https://habr.com/ru/post/510158/)
-#### UEFI Shell:
-Если сломался загрузчик 
-[инфа по ремонту](https://www.bootdev.ru/2018/10/EFI-Shell-What-to-do-if-the-OS-does-not-loaded.html)
-
 ### VirtualBox на Ubuntu 
 > Требуется запуст от root,чтобы виртуальная ОС видела USB    
 
@@ -105,6 +99,23 @@ lscpu
 ### [Настройка окружения](https://pingvinus.ru/note/archlinux-configuring-for-newbies)
 > cfidsk /dev/sda - утилита для размеки дисков, для Linux выбрать (gpt)     
 > fdisk -l  - информация о дисках    
+
+### Инструкция по установки Arch 
+[ссылка](https://habr.com/ru/post/510158/)
+
+### Подключение wi-fi
+1. iwctl - запустить утелиту   
+2. device list - список протоколов   
+3. station wlan0 scan - сканировать протокол - wlan0 как пример (вписать нужный протокол)  
+4. station wlan0 get-networks - список найденых устройств SSID      
+5. station wlan0 connect имя SSID  
+6. Ввести пароль    
+7. quit - выход  
+
+
+#### UEFI Shell:
+Если сломался загрузчик 
+[инфа по ремонту](https://www.bootdev.ru/2018/10/EFI-Shell-What-to-do-if-the-OS-does-not-loaded.html)
 
 ### Pacman
 #### Установка пакетов
@@ -141,7 +152,7 @@ lscpu
 > Проводное соединение подклюается автоматически если нет см. п.2
 1. Проверка подкючения
 > ```ping -c 3 google.com``` - где (-c 3)  количесто пингов     
-##### Подключение wi-fi 
+##### Подключение wi-fi после установки системы, (не удалось выполнить соединение)    
 2. Посмореть имя сетевого подключения ```ip a```
 3. Разблокировать сетевой адаптер ```rfkill unblock wifi```
 4. Включить сетевой адаптер ```ip link set wlan0``` - где wlan0 имя сети
