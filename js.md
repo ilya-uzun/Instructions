@@ -113,7 +113,7 @@ function walkAround() {
 |  true | true | true |   
 
 ### логическое ИЛИ (Дизъюнкция)     
-|   a   |   b   |  a||b |
+|   a   |   b   |  ```a||b``` |
 |-----|-----|-----|
 | false | false | false|
 | false | true | true |
