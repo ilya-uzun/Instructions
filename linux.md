@@ -103,7 +103,7 @@ lscpu
 ### Инструкция по установки Arch 
 [ссылка](https://habr.com/ru/post/510158/)
 
-### Подключение wi-fi
+### Подключение [wi-fi](https://wiki.archlinux.org/title/Network_configuration_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)/Wireless_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9))
 1. iwctl - запустить утелиту   
 2. device list - список протоколов   
 3. station wlan0 scan - сканировать протокол - wlan0 как пример (вписать нужный протокол)  
