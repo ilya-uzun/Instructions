@@ -101,6 +101,27 @@ lscpu
 > cfidsk /dev/sda - утилита для размеки дисков, для Linux выбрать (gpt)     
 > fdisk -l  - информация о дисках    
 
+### Установка systemd-boot  
+> Работа в arch-chroot   
+> mount /dev/раздел /boot    
+> nano /boot/loader/loader.conf - отредактировать файл конфигурации    
+~~~
+default arch       #Конфигурация загрузки по умолчанию
+timeout 5          #Время до загрузки
+editor 1           #Включение редактора, рекомендуется безопасностью 0
+~~~
+#### Создаем файлы конфигурации:
+> nano /boot/loader/entries/arch.conf   
+~~~  
+title Arch Linux
+linux /vmlinuz-linux
+# initrd  /intel-ucode.img   # раскомментировать для пользователей Intel
+initrd /initramfs-linux.img 
+options root=PARTUUID=XXXX-XXXX-XXXX rw
+~~~
+
+> bootctl status - команда для проверки systemd-boot после установки    
+
 ### Инструкция по установки Arch 
 [ссылка](https://habr.com/ru/post/510158/)
 
