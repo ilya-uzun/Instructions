@@ -117,7 +117,7 @@ title Arch Linux
 linux /vmlinuz-linux
 # initrd  /intel-ucode.img   # раскомментировать для пользователей Intel
 initrd /initramfs-linux.img 
-options root=PARTUUID=XXXX-XXXX-XXXX rw
+options root=название диска rw
 ~~~
 
 > bootctl status - команда для проверки systemd-boot после установки    
