@@ -7,7 +7,7 @@
 ### список репозиторий в файле
 > sudo vim /etc/apt/sources.list
 
-### Список установленых прогррамм
+### Список установленых программ
 > gpkg -l     
 > snap lisp - список пакетов менеджера snap     
 
@@ -125,6 +125,23 @@ options root=название диска rw
 ### Инструкция по установки Arch 
 [ссылка](https://habr.com/ru/post/510158/)
 
+#### Подключение к интернету
+> Проводное соединение подключается автоматически если нет см. п.2
+1. Проверка подкючения
+> ```ping -c 3 google.com``` - где (-c 3)  количесто пингов     
+##### Подключение wi-fi после установки системы, (не удалось выполнить соединение)    
+2. Посмореть имя сетевого подключения ```ip a```
+3. Разблокировать сетевой адаптер ```rfkill unblock wifi```
+4. Включить сетевой адаптер ```ip link set wlan0``` - где wlan0 имя сети
+5. Запустить программу для ручного подключения с флешки [iwctl](https://wiki.archlinux.org/title/Iwd_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9))
+5.1 [iwd]#```station wlan0 connect nameWifi```      
+5.2 passphrase: - ввести пароль     
+5.3 [iwd]#```exit```  - выход   
+
+>Важно если после подключение не пингуется google.com, то проблеа с адресами DNS
+исправить  в ```nano /ect/resolv.conf``` дописать : ``` nameserver 8.8.4.4      
+
+
 ### Подключение [wi-fi](https://wiki.archlinux.org/title/Network_configuration_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)/Wireless_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9))
 1. iwctl - запустить утелиту   
 2. device list - список протоколов   
@@ -134,6 +151,7 @@ options root=название диска rw
 6. Ввести пароль    
 7. quit - выход  
 
+#### Подключение wi-fi c помощью [wpa_supplicant](https://wiki.archlinux.org/title/Wpa_supplicant)
 
 #### UEFI Shell:
 Если сломался загрузчик 
@@ -168,28 +186,6 @@ options root=название диска rw
 > pacman -Syu    
 #### Информация о пакете и его зависимостях
 > pacman -S $(pactree -lu iwd)    
-
-### Установка Arch Linux
-#### Подключение к интернету
-> Проводное соединение подклюается автоматически если нет см. п.2
-1. Проверка подкючения
-> ```ping -c 3 google.com``` - где (-c 3)  количесто пингов     
-##### Подключение wi-fi после установки системы, (не удалось выполнить соединение)    
-2. Посмореть имя сетевого подключения ```ip a```
-3. Разблокировать сетевой адаптер ```rfkill unblock wifi```
-4. Включить сетевой адаптер ```ip link set wlan0``` - где wlan0 имя сети
-5. Запустить программу для ручного подключения [iwctl](https://wiki.archlinux.org/title/Iwd_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9))
-5.1 [iwd]#```station wlan0 connect nameWifi```      
-5.2 passphrase: - ввести пароль     
-5.3 [iwd]#```exit```  - выход   
-##### Совет по подчлючению через iw
-> iw dev    
-> iw dev wlan0 scan | grep SSID    
-> iwctl --passphrase "password" station wlan0 connect SSID    
-
-
->Важно если после подключение не пингуется google.com, то проблеа с адресами DNS
-исправить  в ```nano /ect/resolv.conf``` дописать : ``` nameserver 8.8.4.4      
 
 ### Поиск пакетов по названию 
 > ```pacman -Ss '^vim-'```    
