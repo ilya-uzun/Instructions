@@ -133,16 +133,8 @@ options root=название диска rw
 2. Посмореть имя сетевого подключения ```ip a```
 3. Разблокировать сетевой адаптер ```rfkill unblock wifi```
 4. Включить сетевой адаптер ```ip link set wlan0``` - где wlan0 имя сети
-5. Запустить программу для ручного подключения с флешки [iwctl](https://wiki.archlinux.org/title/Iwd_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9))
-5.1 [iwd]#```station wlan0 connect nameWifi```      
-5.2 passphrase: - ввести пароль     
-5.3 [iwd]#```exit```  - выход   
-
->Важно если после подключение не пингуется google.com, то проблеа с адресами DNS
-исправить  в ```nano /ect/resolv.conf``` дописать : ``` nameserver 8.8.4.4      
-
-
-### Подключение [wi-fi](https://wiki.archlinux.org/title/Network_configuration_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)/Wireless_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9))
+ 
+## Подключение с флешки [wi-fi](https://wiki.archlinux.org/title/Network_configuration_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)/Wireless_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9))
 1. iwctl - запустить утелиту   
 2. device list - список протоколов   
 3. station wlan0 scan - сканировать протокол - wlan0 как пример (вписать нужный протокол)  
@@ -150,6 +142,12 @@ options root=название диска rw
 5. station wlan0 connect имя SSID  
 6. Ввести пароль    
 7. quit - выход  
+
+>Важно если после подключение не пингуется google.com, то проблеа с адресами DNS
+исправить  в ```nano /ect/resolv.conf``` дописать : ``` nameserver 8.8.4.4      
+
+
+#
 
 #### Подключение wi-fi c помощью [wpa_supplicant](https://wiki.archlinux.org/title/Wpa_supplicant)
 
