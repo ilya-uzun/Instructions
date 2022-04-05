@@ -147,7 +147,7 @@ options root=название диска rw
 исправить  в ```nano /ect/resolv.conf``` дописать : ``` nameserver 8.8.4.4      
 
 
-#
+#### Настройка [I3](https://xakep.ru/2017/03/22/geek-desktop/)
 
 #### Подключение wi-fi c помощью [wpa_supplicant](https://wiki.archlinux.org/title/Wpa_supplicant)
 
