@@ -151,6 +151,15 @@ options root=название диска rw
 
 #### Подключение wi-fi c помощью [wpa_supplicant](https://wiki.archlinux.org/title/Wpa_supplicant)
 
+#### Установка wi-if из среды i3
+> Необходимые пакеты:
+> 1. iwd    
+> 2. wpa_supplicant    
+> 3. dhclient   
+> Алгоритм тотже как и при настройке во время установки. Условия запуск через sudo и перед каждой командой iwctl     
+> dhclient - для автоматического подключения wi-fi        
+> !ВАЖНО - iwctl device list - может не сработать с первого раза (причина не ясна)    
+
 #### UEFI Shell:
 Если сломался загрузчик 
 [инфа по ремонту](https://www.bootdev.ru/2018/10/EFI-Shell-What-to-do-if-the-OS-does-not-loaded.html)
