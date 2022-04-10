@@ -160,6 +160,9 @@ options root=название диска rw
 > dhclient - для автоматического подключения wi-fi        
 > !ВАЖНО - iwctl device list - может не сработать с первого раза (причина не ясна)    
 
+
+#### [i3wm manual](https://laurvas.ru/i3/)
+
 #### UEFI Shell:
 Если сломался загрузчик 
 [инфа по ремонту](https://www.bootdev.ru/2018/10/EFI-Shell-What-to-do-if-the-OS-does-not-loaded.html)
