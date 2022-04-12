@@ -160,6 +160,15 @@ options root=название диска rw
 > dhclient - для автоматического подключения wi-fi        
 > !ВАЖНО - iwctl device list - может не сработать с первого раза (причина не ясна)    
 
+### Инструкция по установки snap пакетов     
+> `sudo pacman -S snapd` - Установка snap    
+> `sudo systemctl enable --now snapd.socket` -  включить модуль systemd    
+> `sudo ln -s /var/lib/snapd/snap /snap` - включить поддержку классической привязки     
+> snap refresh - обновление пакетов     
+> snap refresh имя_пакета - обновление одного пакета    
+> snap remove имя_пакета  - удаление пакетов   
+> snap list - просмотр установле
+> snap info имя_пакета - информация о пакете     
 
 #### [i3wm manual](https://laurvas.ru/i3/)
 
