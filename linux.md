@@ -161,7 +161,12 @@ options root=название диска rw
 > !ВАЖНО - iwctl device list - может не сработать с первого раза (причина не ясна)    
 
 ### Инструкция по установки snap пакетов     
-> `sudo pacman -S snapd` - Установка snap    
+> `sudo pacman -S snapd` - Установка snap    или
+~~~
+git clone https://aur.archlinux.org/snapd.git
+cd snapd
+makepkg -si
+~~~   
 > `sudo systemctl enable --now snapd.socket` -  включить модуль systemd    
 > `sudo ln -s /var/lib/snapd/snap /snap` - включить поддержку классической привязки     
 > snap refresh - обновление пакетов     
