@@ -1,5 +1,5 @@
 ### Gradle
-> Плагие можно создать на Kotlin в папке  buildSrc/src/main/kotlin и потом истользовать аго в проекте [примет](https://habr.com/ru/company/yota/blog/565440/)     
+> Плагие можно создать на Kotlin в папке  buildSrc/src/main/kotlin и потом истользовать аго в проекте [пример](https://habr.com/ru/company/yota/blog/565440/)     
 > Плагены через Class менее затратные по ресурсам чем плагены через script     
 
 #### Блок repositories    
