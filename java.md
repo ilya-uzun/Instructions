@@ -57,7 +57,7 @@ public class remove {
 ~~~
 
 #### Пример массив и создание класса
-~~~
+~~~java
 public class Main
 {
 	public static void main(String[] args) {
