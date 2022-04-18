@@ -55,3 +55,36 @@ public class remove {
     }
 }
 ~~~
+
+#### Пример массив и создание класса
+~~~
+public class Main
+{
+	public static void main(String[] args) {
+		 Kata test = new Kata();
+		 int[] arr = new int[]{4,3,9,7,2,1};
+   // Простой способ вывести массив не подходит если нужно использовать индекс
+		 for(int i : test.squareOrSquareRoot(arr)){
+		     System.out.print(i + " ");
+		 }
+	}
+}
+
+class Kata
+{
+  public static int[] squareOrSquareRoot(int[] array)
+  {
+      	for(int i = 0; i < array.length; i++){
+	      int a = (int)Math.sqrt(array[i]); // Получение квадрата int с округлением
+       // Если корень квадрата натуральное число извлекаем
+	      if (a*a == array[i]){
+	          array[i] = a;
+	      } else {  //если корень не натуральное число возводим число в квадрат
+	          array[i] *= array[i];
+	      }
+	      
+		}
+    return array;
+  } 
+}
+~~~
