@@ -79,6 +79,10 @@ makepkg -si
 
 #### [i3wm manual](https://laurvas.ru/i3/)
 
+
+#### Звук
+`alsamixer`    
+
 #### UEFI Shell:
 Если сломался загрузчик 
 [инфа по ремонту](https://www.bootdev.ru/2018/10/EFI-Shell-What-to-do-if-the-OS-does-not-loaded.html)
