@@ -46,3 +46,16 @@
 
 ### android
 [android](https://progtips.ru/qt/razrabotka-android-prilozheniya-chast-1-ustanovka-qt.html)
+
+
+
+
+## QtPy5
+#### Установка на Windows     
+Предварительно должен быть установлен Python и отмечена переменная Path   
+> pip install PyQt5     
+> pip install PyQt5-tools     
+
+
+#### Конвертация файла Qt Desigher в .py    
+>    pyuic5 name.ui -o name.py - запускаем из папки с файлом ui в cmd     
