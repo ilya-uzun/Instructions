@@ -58,4 +58,27 @@
 
 
 #### Конвертация файла Qt Desigher в .py    
->    pyuic5 name.ui -o name.py - запускаем из папки с файлом ui в cmd     
+>    pyuic5 name.ui -o name.py - запускаем из папки с файлом ui в cmd  
+
+#### Анимация git через Movie
+
+```python
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtGui import QMovie
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        -----
+        self.movie = QMovie("img/av.gif")
+        self.label_2.setMovie(self.movie)
+        self.startAnimation()
+        ----
+        
+    # Start Animation
+    def startAnimation(self):
+        self.movie.start()
+
+    # Stop Animation(According to need)
+    def stopAnimation(self):
+        self.movie.stop()
+```
