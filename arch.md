@@ -137,3 +137,8 @@ makepkg -si
 
 ### [Список программ](https://wiki.archlinux.org/title/List_of_applications)
 
+
+
+### Ошибка при устаноке пакето
+#### error: key "David Runge <dvzrv@archlinux.org>" could not be imported    
+> Помог иморт ключей на прямую ```pacman-key --recv-keys dvzrv@archlinux.org```    
