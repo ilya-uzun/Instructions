@@ -16,6 +16,8 @@
 <a href="#p17">Указатель this</a>     
 <a href="#p18">Qt</a>     
 <a href="#p19">Потоки</a>  
+<a href="#p19">vcpkg пакетный менеждер для библиотек</a>  
+
 
 ## Файлы 
 > Главный файл кода — mani.cpp, который в некотором смысле центр управления программой. Внутри него только рычаги. Т. е. внутри него только описывается необходимая последовательность вызовов.   
@@ -367,3 +369,15 @@ MainWindow::MainWindow(QWidget *parent)
 > ends - запись \0     
 > flush - очистка буфера потока     
 > ws - прочитать и проигнорировать символы-разделители     
+
+
+<p id="p20">  </p>  
+
+### [Vcpkg](https://github.com/microsoft/vcpkg) 
+#### Установка
+> git clone https://github.com/microsoft/vcpkg      
+> .\vcpkg\bootstrap-vcpkg.bat  - установка     
+
+#### Установка библиотек 
+Команду выполнять к папке м пакетным менеджером    
+> vcpkg install [name packages]  - для Windows  vcpkg.exe    
