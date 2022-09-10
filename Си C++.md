@@ -380,4 +380,5 @@ MainWindow::MainWindow(QWidget *parent)
 
 #### Установка библиотек 
 Команду выполнять к папке м пакетным менеджером    
-> vcpkg install [name packages]  - для Windows  vcpkg.exe    
+> vcpkg install [name packages]  - для Windows  vcpkg.exe по умолчанию устанавливается х86  
+> vcpkg install [name packages]:x64-windows - установка х64     
