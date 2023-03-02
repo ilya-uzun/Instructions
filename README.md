@@ -36,3 +36,8 @@
 #### Кабельт фирмы [Паритет](https://www.paritet.su/catalog/kdpepgkshpng_a_hf/kdpepgkshpng_a_hf_1kh2kh1_50/?sphrase_id=811263)
 #### Кабель фирмы [Сегмент Энерго](https://segmentenergo.ru/) предложение на почте контактное лицо Сухнёва Ольга Викторовна
 +7-928-703-35-50 o.sukhneva@segmentenergo.ru
+
+## Протоколы OPS 
+Используются для обмена данными между SCADA и ПЛК
+OPC client - OPC serer (Это программа например MX-AOPC UA Server ф. Moxa ) - ПЛК либо оборудование связь по Modbus TCP
+
