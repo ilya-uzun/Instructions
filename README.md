@@ -48,17 +48,28 @@ OPC client - OPC serer (Это программа например MX-AOPC UA Se
 
 # Цементировочник
 ## Контроллер cRIO     
-NI 9038 - Контроллер CompactRIO    
-NI 9203 - 8-канальный модуль токового ввода , ±20 мА     
-NI 9265 - 4-канальный модуль токового вывода 0 mA to 20 mA    
-[NI 9485](https://www.ni.com/ru-ru/support/model.ni-9485.html) - 8-канальный, твердотельное реле, 60 В пост. тока (1 А)/30 В     
-NI 9375 - модуль входов выходов DI - 16 отлик (7 мкс), DO - 16 отлик (500 мкс)       
+[NI 9038](https://www.ni.com/ru-ru/support/model.crio-9038.html) - Контроллер CompactRIO    
+[NI 9203](https://www.ni.com/ru-ru/support/model.ni-9203.html) - 8-канальный модуль токового ввода , ±20 мА     
+[NI 9265](https://www.ni.com/docs/en-US/bundle/ni-9265-specs/page/specs.html) - 4-канальный модуль токового вывода 0 mA to 20 mA    
+[NI 9375](https://www.ni.com/ru-ru/support/model.ni-9375.html) - модуль входов выходов DI - 16 отлик (7 мкс), DO - 16 отлик (500 мкс)   
+[NI 9485](https://www.ni.com/docs/en-US/bundle/ni-9485-specs/resource/374822E-02.pdf) - 8-канальный, твердотельное реле, 60 В пост. тока (1 А)/30 В     
 [NI 9760](https://www.ni.com/ru-ru/support/model.ni-9760.html) - 6-канальный модуль, для  датчиков эффекта Холла    
-NI 9871 - 4-порт. модуль управления приборами с последовательным интерфейсом, RS485/RS422        
+[NI 9871](https://www.ni.com/ru-ru/support/model.ni-9871.html) - 4-порт. модуль управления приборами с последовательным интерфейсом, RS485/RS422        
 
 ## Уровнемер Ультразвуковой уровнемер ENDRESS & HAUSER [FMU40-GNB2A2](https://www.ru.endress.com/ru/Tailor-made-field-instrumentation/uroven/Prosonic-FMU40?t.tabId=product-overview)
+
+
+## ШИМ
+
+### Гидравлика
+Пропорциональный клапан Parker [D1FH](https://www.parker.com/parkerimages/Parker.com/Literature/Hydraulic%20Valve%20Division/hydraulicvalve/Catalog%20sections%20for%20websphere/Proportional%20Directional%20Control/Catalog%20-%20Static%20Files/D_FH-D_FM.pdf)
 
 # Идея
 ### [Источник](https://habr.com/ru/post/720100/)
 Сделать чертежи для изготовлекния прибора по выращеванию трав    
 
+
+
+### Книга по ТРИЗ
+первая мысль о нерациональности использования способа проб и ошибок. Этот способ очень затратный по времяни и ресурсам и нет ни какой гарантии на успех.
+вторая мысль, лучший прибор - это когда прибора нет но функця сохраняется, в пример приводится балансир на спускаемом модуле для занда на отпраувку на Венеру. Там было принять решение вместа балванки для балансира использовать дополнительный прибор массой 6 кг.
